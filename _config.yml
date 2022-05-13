@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 권강민
-title: 이력서
+title: Unty3D(2D) & C++ 게임클라이언트 개발자
 email: lthel1047@gmail.com
 # email_title: Email (Email title override)
 phone: 010-9134-0334
@@ -20,9 +20,7 @@ darkmode: true
 # Social links
 github_username:  lthel1047
 instagram_username: https://www.instagram.com/gxngxin/
-linkedin_username: jekyll
 youtube_username: https://www.youtube.com/channel/UCI8cV92B2a9C-Z-uIzbQwhQ
-googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
@@ -41,15 +39,15 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: /images/isme.jpg "GangMin"
 about_content: | # this will include new lines to allow paragraphs
  안녕하세요!
- 현재 <mark>Unity 3D</mark> 개발을 공부하며 <mark> C# </mark> , <mark> C++ </mark> 기술을 가지고 있습니다.  
- 저는 게임프로그래밍 학과를 이수를 했으며 3년간 학교생활을 하며 개발, 코딩은 혼자서 성장하기 힘들다는 것과 팀워크, 단체생활의 중요성을 많이 느꼈습니다.  
- 학교생활 중 공부만 한것이 아닌 팀 프로젝트와 팀 과제를 해야 할 때마다 함께 개발하며 팀원과의 소통, 의견이 얼마나 중요한지 알았습니다.  
- 그리고 함께 한다는건 피드백을 해줄 수 있는 팀원이 있고 그 피드백을 통해 제가 성장할 수 있고 혼자서 해낼 수 없기에 저는 설레입니다.  
- 여러분과 함께 일하며 배우고 얻은 지식을 통해 성장할 생각에 기대되고 설레입니다.
- 같이 앞으로 나아가고 성장하고 싶습니다.
+ 현재 <mark>Unity 3D</mark> 개발을 공부하며  <mark>C#</mark>  , <mark> C++</mark>  기술을 가지고 있습니다.  
+ 저는 게임프로그래밍 학과를 이수했으며 3년간 학교생활을 하며 개발, 코딩은 혼자서 성장하기 힘들다는 것과 팀워크, 단체생활의 중요성을 많이 느꼈습니다.
+ 학교생활 중 공부만 한 것이 아닌 팀 프로젝트와 팀 과제를 해야 할 때마다 함께 개발하며 <mark>팀원과의 소통, 의견조율</mark> 이 얼마나 중요한지 알았습니다.
+  그리고 함께 한다는 건 피드백을 해줄 수 있는 팀원이 있고 그 피드백을 통해 제가 성장할 수 있고 함께 성장하고 같이 코딩을 할 생각에 저는 설렙니다.  
+ 여러분과 함께 일하며 배우고 얻은 지식을 통해 <mark>회사와 팀의 도움이 되는 코딩<mark>을 하고 싶습니다.  
+ 같이 앞으로 나아가고 성장하고 싶습니다.  
  
   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
     - Lists
