@@ -39,7 +39,7 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: /images/isme.jpg 
+about_profile_image: /images/gangmin.jpg 
 about_content: | # this will include new lines to allow paragraphs
  안녕하세요!
  현재 <mark>Unity 3D</mark> 개발을 공부하며  <mark>C#</mark>  , <mark> C++</mark>  기술을 가지고 있습니다.  
