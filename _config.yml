@@ -43,8 +43,10 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
+ 안녕하세요!
+ 현재 <mark>Unity</mark> 개발을 공부하며 <mark> C# </mark> , <mark> C++ </mark> 을 공부 중 입니다.
+ 저는 게임프로그래밍 학과를 이수 했으며 <mark> G-Star 2017 </mark> 참여 해보았습니다.
+ 
   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
     - Lists
     - Tables
