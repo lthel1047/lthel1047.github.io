@@ -72,7 +72,6 @@ content:
         quote: >
           정말 좋아하던 게임 Dead by Daylight 모작입니다.
         description: | # 게임 메인 화면의 UI 가 매력적입니다.  
-        # 마우스 커서를 가져다 대면 UI의 테두리가 움직이며 채우는 모습이 나옵니다.  
           Description about the work on/with the project
   - title: Experience
     layout: list
