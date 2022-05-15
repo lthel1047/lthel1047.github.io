@@ -64,17 +64,18 @@ content:
                       # other value (or no value) means no border will be displayed
         title: Dead by Daylight
         link: /lthel1047/CopyGameDeadbyDaylight
-        link_text: github.com/lthel1047/CopyGameDeadbyDaylight.git
+        link_text: 
         additional_links:
           - title:  Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: github.com/lthel1047/CopyGameDeadbyDaylight.git (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
           정말 좋아하던 게임 Dead by Daylight 모작입니다.
         description:
           게임 메인 화면의 UI 가 매력적입니다.  
-          실제 게임에 디테일 한 부분을 가져왔습니다.
-          ![alt text](/images/oh9.jpg){: width="150" height="150"){: .right}
+          
+        Inline-style: 
+          ![alt text](https://github.com/lthel1047/lthel1047.github.io/blob/master/images/oh9.jpg "DBD_Game")
   - title: Experience
     layout: list
     content:
