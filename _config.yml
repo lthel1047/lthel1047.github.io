@@ -65,7 +65,7 @@ content:
         quote: >
           한때 즐겁게 즐겨하던 게임 중 하나인 Dead by Daylight를  모작을 해보았습니다.
         description: |
-          모작을 하면서 제일 신경을 쓴 것은 UI입니다.  
+          모작을 하면서 제일 신경을 쓴 것은 <mark>UI</mark>입니다.  
           실제로 게임을 보시면 탭에 하나씩 커서를 올려둘 경우 UI가 움직이면 탭박스가 차오르는 모습이 연출이 되어 그 부분을 구현하기 위해 UI를 많이 공부했습니다.  
           이것 외에도 뒤로가는 버튼 등 차오르는 연출 및 소리마저 차오르는 소리가 들리도록 구현하였습니다.  
           실제 게임플레이 중에서는 AI를 구현하는데는 어려움은 없었지만 막상 만들다 보니 부드럽게 움직이게 한다던지 누가봐도 불편한 연출이 나왔지만 AI만 메인이라고 생각하지 않습니다.
@@ -78,8 +78,7 @@ content:
             icon: fab fa-github
             url: https://github.com/sproogen/itsgoingto.be
         quote: >
-          itsgoingto.be is a simple voting site where a user can ask a question or topic top put to a vote. This question
-          can then be shared with their friends/colleagues to vote on things like 'Where should we go for lunch?'.
+          2D 개발입니다. <mark>맵 자동생성</mark>, <mark>생성과 동시에 아이템 무작위 배치 및 몬스터도 무작위로 배치</mark>합니다. 로그라이크 게임을 생각 하시면 편하십니다.
         description: |
           The API for this site has been build using <mark>Node.js</mark> while the front end is a <mark>React</mark>/<mark>Redux</mark> app.
           I have used <mark>Docker</mark> to set up a development environment and <mark>Heroku</mark> to deploy and host the site. I have
@@ -89,7 +88,7 @@ content:
           Feel free to check out the whole project on GitHub to get a feel for how I work [here](https://github.com/sproogen/itsgoingto.be).
           
           
-  - title: Experience
+  - title: Skill & State
     layout: list
     content:
       - layout: right
