@@ -15,7 +15,7 @@ phone: 010-9134-0334
 
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: never
 
 # Social links
 github_username:  lthel1047
@@ -69,24 +69,7 @@ content:
         description:
           * 게임 메인 화면의 UI 가 매력적입니다.  
           * UI 및 InGame 부분을 특히 신경을 많이 썻습니다.
-          
-     content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Dead by Daylight
-        link: /lthel1047/CopyGameDeadbyDaylight
-        link_text: 
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: github.com/lthel1047/CopyGameDeadbyDaylight.git (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          정말 좋아하던 게임 Dead by Daylight 모작입니다.
-        description:
-          * 게임 메인 화면의 UI 가 매력적입니다.  
-          * UI 및 InGame 부분을 특히 신경을 많이 썻습니다.
-          
+         
   - title: Experience
     layout: list
     content:
