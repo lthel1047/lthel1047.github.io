@@ -53,7 +53,7 @@ about_content: | # this will include new lines to allow paragraphs
     - Lists
     - Tables
     - <a href="google.com">Links</a>
-    - Images ![alt text](/images/oh9.jpg "Trees")
+    - Images ![alt text](/images/oh9.jpg)
 
 content:
   - title: Projects # Title for the section
@@ -71,8 +71,10 @@ content:
             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
           정말 좋아하던 게임 Dead by Daylight 모작입니다.
-        description: | # 게임 메인 화면의 UI 가 매력적입니다.  
-          Description about the work on/with the project
+        description:
+          게임 메인 화면의 UI 가 매력적입니다.  
+          실제 게임에 디테일 한 부분을 가져왔습니다.
+          ![alt text](/images/oh9.jpg){: width="150" height="150"){: .right}
   - title: Experience
     layout: list
     content:
