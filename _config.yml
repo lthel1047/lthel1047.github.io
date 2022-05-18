@@ -58,8 +58,8 @@ content:
           실제 게임플레이 중에서는 AI를 구현하는데는 어려움은 없었지만 막상 만들다 보니 부드럽게 움직이게 한다던지 누가봐도 불편한 연출이 나왔지만 AI만 메인이라고 생각하지 않습니다.
           중요하게 생각한 것은 스킬을 사용하는 애니메이션, 생존자를 엎는 등 살인마 플레이어에 더 힘을 기울였습니다.  
       - layout: top-middle
-        title: Unity2D MapGeneration
-        link: www.itsgoingto.be
+        title: Unity2D RogLike
+        link: github.com/lthel1047/2DRoglikeGame.git
         additional_links:
           - title: sproogen/itsgoingto.be
             icon: fab fa-github
@@ -67,12 +67,12 @@ content:
         quote: >
           2D 개발입니다. <mark>맵 자동생성</mark>, <mark>생성과 동시에 아이템 무작위 배치 및 몬스터도 무작위로 배치</mark>합니다. 로그라이크 게임을 생각 하시면 편하십니다.
         description: |
-          The API for this site has been build using <mark>Node.js</mark> while the front end is a <mark>React</mark>/<mark>Redux</mark> app.
-          I have used <mark>Docker</mark> to set up a development environment and <mark>Heroku</mark> to deploy and host the site. I have
-          a suite of unit and API tests for the backend and unit tests for the front end.
-          I have been using this project as a way to increase many of my skills and also learn new things, most recently sockets and Node.JS. I have particually
-          enjoyed managing my own project and designing my own architecture and implementing this to a high standard.
-          Feel free to check out the whole project on GitHub to get a feel for how I work [here](https://github.com/sproogen/itsgoingto.be).
+          맵 자동생성 과 생성되는 맵에 아이템 그리고 몬스터가 자동으로 생성되며 해당 방에 몬스터를 다 처치해야 다음 방으로 향할 수 있도록 개발되었습니다. 
+          맵을 자동생성하는 코드에 신경을 많이 썻으며 FIFO 방식을 이용해 LIST를 사용하였고 Linq 또한 사용해보았습니다.  
+          Linq를 이용해 방(던전)을 찾아서 던전을 구성하는 방식을 이용했습니다. 처음 사용보는 방식이라 어려움이 많았고 어려운 부분과 버그가 발생하는 부분은 여러 자료를 참고하였습니다.  
+     
+          
+          
           
           
   - title: Skill & State
