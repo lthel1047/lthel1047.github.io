@@ -35,7 +35,7 @@ about_content: | # this will include new lines to allow paragraphs
   그리고 함께 한다는 건 피드백을 해줄 수 있는 팀원이 있고 그 피드백을 통해 제가 성장할 수 있고 함께 성장하고 같이 코딩을 할 생각에 저는 설렙니다.  
  여러분과 함께 일하며 배우고 얻은 지식을 통해 <mark>회사와 팀의 도움이 되는 코딩</mark>을 하고 싶습니다.  
  같이 앞으로 나아가고 성장하고 싶습니다.   
- ![alt text](/images/oh9.jpg){: width="100" height="100"}{: .center}
+ ![alt text]<center>(/images/oh9.jpg){: width="100" height="100"}</center>
 
 content:
   - title: Projects # Title for the section
