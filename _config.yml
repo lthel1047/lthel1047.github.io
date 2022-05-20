@@ -59,13 +59,15 @@ content:
           이것 외에도 뒤로가는 버튼 등 차오르는 연출 및 소리마저 차오르는 소리가 들리도록 구현하였습니다.  
           실제 게임플레이 중에서는 AI를 구현하는데는 어려움은 없었지만 막상 만들다 보니 부드럽게 움직이게 한다던지 누가봐도 불편한 연출이 나왔지만 AI만 메인이라고 생각하지 않습니다.
           중요하게 생각한 것은 스킬을 사용하는 애니메이션, 생존자를 엎는 등 살인마 플레이어에 더 힘을 기울였습니다.  
+      
+      
       - layout: top-middle
         title: Unity2D RogLike
         link: github.com/lthel1047/2DRoglikeGame.git
         additional_links:
           - title: sproogen/itsgoingto.be
             icon: fab fa-github
-            url: https://github.com/sproogen/itsgoingto.be
+            url: github.com/sproogen/itsgoingto.be
         quote: >
           2D 개발입니다. <mark>맵 자동생성</mark>, <mark>생성과 동시에 아이템 무작위 배치 및 몬스터도 무작위로 배치</mark>합니다. 로그라이크 게임을 생각 하시면 편하십니다.
         description: |
@@ -73,6 +75,23 @@ content:
           맵을 자동생성하는 코드에 신경을 많이 썻으며 FIFO 방식을 이용해 LIST를 사용하였고 Linq 또한 사용해보았습니다.  
           Linq를 이용해 방(던전)을 찾아서 던전을 구성하는 방식을 이용했습니다. 처음 사용보는 방식이라 어려움이 많았고 어려운 부분과 버그가 발생하는 부분은 여러 자료를 참고하였습니다.  
      
+     
+     - layout: top-middle
+        title: Algorithm A*(PathFinder)
+        link: github.com/lthel1047/2DRoglikeGame.git
+        additional_links:
+          - title: sproogen/itsgoingto.be
+            icon: fab fa-github
+            url: github.com/lthel1047/Astar_Algorithm.git
+        quote: >
+          알고리즘의 기본이라 할 수 있고 중요한 A* 알고리즘 입니다.
+        description: |
+          직접 벽을 마우스로 그릴 수 있고 타일의 수 등 직접적으로 관여하여 알고리즘을 구현하도록 만들었습니다.  
+          물론 코드 부분이 중요하지만 게임 개발자라면 유저의 편의성도 중요하다고 생각하여 GUI Layout 을 사용을 해보았습니다.  
+          처음 알게되었고 코드를 사용하기 많은 노력이 들어갔지만 공부하면서 새로운 코드를 배우는 과정이여서 재밌었습니다.  
+          앞서 A* 알고리즘을 물론 혼자만의 생각으로 코드를 작성하는데 어려움이 있어 많은 곳을 참고하여 만들었습니다.  
+          알고리즘은 많은 자료가 있어 어렵지 않았고, GUI Layout를 이용하는게 많은 어려움을 겪었습니다.
+
           
           
           
