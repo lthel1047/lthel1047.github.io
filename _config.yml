@@ -1,27 +1,15 @@
-# Site
 repository: sproogen/jameswgrant
 favicon: images/favicon.ico
 
 version: 2
 
-# Personal info
+
 name: HiHiHI
 title: Full Stack Web Developer
 email: james@jameswgrant.co.uk
 
-# Social links
-twitter_username: sproogen
-github_username:  sproogen
-# dribbble_username:
-# facebook_username:
-# flickr_username:
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# pinterest_username:
-# youtube_username:
 
-# About Section
-# about_title: About Me
+
 about_profile_image: images/gangmin.jpg
 about_content: |
   Hi, my name is James Grant, I'm a full stack web developer with over 9 years experience currently specialising in React development.
