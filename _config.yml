@@ -54,6 +54,7 @@ content:
           중요하게 생각한 것은 스킬을 사용하는 애니메이션, 생존자를 엎는 등 살인마 플레이어에 더 힘을 기울였습니다.  
           
       - layout: top-middle
+        border: weak
         title: Unity2D RogLike
         link: github.com/lthel1047/2DRoglikeGame.git
         additional_links:
