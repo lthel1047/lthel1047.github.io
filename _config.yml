@@ -95,9 +95,9 @@ content:
         link: Link to company (optional)
         quote: >
           Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-          
+        description: | 
+          ![art text](/images/oh9.jpg){: width="100" height="100"}
+          ![art text](/images/oh9.jpg){: width="100" height="100"}
           ![art text](/images/oh9.jpg){: width="100" height="100"}
         
   - title: Education
