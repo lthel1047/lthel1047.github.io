@@ -1,142 +1,227 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: sproogen/jameswgrant
+favicon: images/favicon.ico
 
-# Content configuration version
 version: 2
 
 # Personal info
-name: 권강민
-title: Unty3D(2D) & C++ 게임클라이언트 개발자
-email: lthel1047@gmail.com
-# email_title: Email (Email title override)
-
-# Dark Mode (true/false/never)
-darkmode: true
+name: James Grant
+title: Full Stack Web Developer
+email: james@jameswgrant.co.uk
 
 # Social links
-github_username:  lthel1047
-instagram_username: https://www.instagram.com/gxngxin/
-youtube_username: https://www.youtube.com/channel/UCI8cV92B2a9C-Z-uIzbQwhQ
+twitter_username: sproogen
+github_username:  sproogen
+# dribbble_username:
+# facebook_username:
+# flickr_username:
+instagram_username: jameswgrant
+linkedin_username: jameswgrant
+# pinterest_username:
+# youtube_username:
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: /images/gangmin.jpg 
-about_content: | # this will include new lines to allow paragraphs
- 현재 <mark>Unity 3D</mark> 개발을 공부하며  <mark>C#</mark>  , <mark> C++</mark> 을 이용해 개발을 할 수 있습니다.  
- 저는 게임프로그래밍 학과를 이수했으며 3년간 학교생활을 하며 개발, 코딩은 혼자서 성장하기 힘들다는 것과 팀워크, 단체생활의 중요성을 많이 느꼈습니다.
- 학교생활 중 공부만 한 것이 아닌 팀 프로젝트와 팀 과제를 해야 할 때마다 함께 개발하며 <mark>팀원과의 소통, 의견조율</mark> 이 얼마나 중요한지 알았습니다.
-  그리고 함께 한다는 건 피드백을 해줄 수 있는 팀원이 있고 그 피드백을 통해 제가 성장할 수 있고 함께 성장하고 같이 코딩을 할 생각에 저는 설렙니다.  
- 여러분과 함께 일하며 배우고 얻은 지식을 통해 <mark>회사와 팀의 도움이 되는 코딩</mark>을 하고 싶습니다.  
- 같이 앞으로 나아가고 성장하고 싶습니다.
- ![art text](/images/oh9.jpg){: width="100" height="100"}
- 
- 
+# about_title: About Me
+about_profile_image: images/jg2.jpg
+about_content: |
+  Hi, my name is James Grant, I'm a full stack web developer with over 9 years experience currently specialising in React development.
+  I am currently working for NatWest as a Lead Frontend Software Engineer on their comercial banking platform, Bankline.
+
+  I enjoy making clean and interactive UI that is quick and easy to use whilst also giving users an enjoyable experience.
+  I like working creating clean and efficient developer experiences to allow developers to focus on code quality and the end user experience.
+  I have worked with a range of different languages and frameworks and I am always looking for opportunities to work
+  with something new. The things that I currently have the most experience working with are:
+  <mark>ES6 Javascript</mark>,
+  <mark>React &amp; Redux</mark>,
+  <mark>Node.js</mark>,
+  <mark>Java</mark>,
+  <mark>MySQL</mark>,
+  <mark>SASS</mark>,
+  <mark>git</mark> and
+  <mark>AWS</mark>.
+
 content:
   - title: Projects # Title for the section
     layout: list
     content:
       - layout: top-middle
         border: weak
-        title: Dead By Daylight
-        link: github.com/lthel1047/DeadByDaylightCopy.git
+        title: Mordern Resume Theme
+        link: sproogen.github.io/modern-resume-theme
         additional_links:
-          - title: Dead by Daylight Copy
+          - title: sproogen/modern-resume-theme
             icon: fab fa-github
-            url: github.com/lthel1047/DeadByDaylightCopy.git
+            url: https://github.com/sproogen/modern-resume-theme
         quote: >
-          한때 즐겁게 즐겨하던 게임 중 하나인 Dead by Daylight를  모작을 해보았습니다.
+          A modern simple static resume template and theme. Powered by Jekyll and GitHub pages.
         description: |
-          모작을 하면서 제일 신경을 쓴 것은 <mark>UI</mark>입니다.  
-          실제로 게임을 보시면 탭에 하나씩 커서를 올려둘 경우 UI가 움직이면 탭박스가 차오르는 모습이 연출이 되어 그 부분을 구현하기 위해 UI를 많이 공부했습니다.  
-          이것 외에도 뒤로가는 버튼 등 차오르는 연출 및 소리마저 차오르는 소리가 들리도록 구현하였습니다.  
-          실제 게임플레이 중에서는 AI를 구현하는데는 어려움은 없었지만 막상 만들다 보니 부드럽게 움직이게 한다던지 누가봐도 불편한 연출이 나왔지만 AI만 메인이라고 생각하지 않습니다.
-          중요하게 생각한 것은 스킬을 사용하는 애니메이션, 생존자를 엎는 등 살인마 플레이어에 더 힘을 기울였습니다.
+          This is a <mark>Jekyll</mark> theme that I have recently created, in fact it is what this resume has been built with.
+          I decided I wanted to learn how to create a fully open source project and thought that this would be the perfect project to do this with.
+          It has allowed me to share something I have created in a way that will be helpful for lots of people while also learning from this myself.
       - layout: top-middle
-        title: Unity2D RogLike
-        link: github.com/lthel1047/2DRoglikeGame.git
+        title: itsgoingto.be
+        link: www.itsgoingto.be
         additional_links:
           - title: sproogen/itsgoingto.be
             icon: fab fa-github
-            url: github.com/sproogen/itsgoingto.be
+            url: https://github.com/sproogen/itsgoingto.be
         quote: >
-          2D 개발입니다. <mark>맵 자동생성</mark>, <mark>생성과 동시에 아이템 무작위 배치 및 몬스터도 무작위로 배치</mark>합니다. 로그라이크 게임을 생각 하시면 편하십니다.
+          itsgoingto.be is a simple voting site where a user can ask a question or topic top put to a vote. This question
+          can then be shared with their friends/colleagues to vote on things like 'Where should we go for lunch?'.
         description: |
-          맵 자동생성 과 생성되는 맵에 아이템 그리고 몬스터가 자동으로 생성되며 해당 방에 몬스터를 다 처치해야 다음 방으로 향할 수 있도록 개발되었습니다. 
-          맵을 자동생성하는 코드에 신경을 많이 썻으며 FIFO 방식을 이용해 LIST를 사용하였고 Linq 또한 사용해보았습니다.  
-          Linq를 이용해 방(던전)을 찾아서 던전을 구성하는 방식을 이용했습니다. 처음 사용보는 방식이라 어려움이 많았고 어려운 부분과 버그가 발생하는 부분은 여러 자료를 참고하였습니다. 
-     - layout: top-middle
-        title: Algorithm A*(PathFinder)
-        link: github.com/lthel1047/2DRoglikeGame.git
-        additional_links:
-          - title: sproogen/itsgoingto.be
-            icon: fab fa-github
-            url: github.com/lthel1047/Astar_Algorithm.git
-        quote: >
-          알고리즘의 기본이라 할 수 있고 중요한 A* 알고리즘 입니다.
-        description: |
-          직접 벽을 마우스로 그릴 수 있고 타일의 수 등 직접적으로 관여하여 알고리즘을 구현하도록 만들었습니다.  
-          물론 코드 부분이 중요하지만 게임 개발자라면 유저의 편의성도 중요하다고 생각하여 GUI Layout 을 사용을 해보았습니다.  
-          처음 알게되었고 코드를 사용하기 많은 노력이 들어갔지만 공부하면서 새로운 코드를 배우는 과정이여서 재밌었습니다.  
-          앞서 A* 알고리즘을 물론 혼자만의 생각으로 코드를 작성하는데 어려움이 있어 많은 곳을 참고하여 만들었습니다.  
-          알고리즘은 많은 자료가 있어 어렵지 않았고, GUI Layout를 이용하는게 많은 어려움을 겪었습니다.
-  - title: Skill & State
+          The API for this site has been build using <mark>Node.js</mark> while the front end is a <mark>React</mark>/<mark>Redux</mark> app.
+          I have used <mark>Docker</mark> to set up a development environment and <mark>Heroku</mark> to deploy and host the site. I have
+          a suite of unit and API tests for the backend and unit tests for the front end.
+
+          I have been using this project as a way to increase many of my skills and also learn new things, most recently sockets and Node.JS. I have particually
+          enjoyed managing my own project and designing my own architecture and implementing this to a high standard.
+
+          Feel free to check out the whole project on GitHub to get a feel for how I work [here](https://github.com/sproogen/itsgoingto.be).
+
+  - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-          
-          ![art text](/images/oh9.jpg){: width="100" height="100"}
-        
+      - layout: left
+        border: weak
+        title: NatWest
+        sub_title: Lead Frontend Software Engineer
+        caption: July 2021 - Present
+        description: |
+          Taken accountability for the frontend of the payments product area within a commercial banking platform, becoming a go to for knowledge and technical decisions.
+
+          Currently developing a new frontend architecture transforming the current monolithic frontend application into a scalable modular application with micro-frontends
+          using Webpack Module Federation. This has been a great experience to develop a new workflow for developers to develop and release code and have input in all aspects
+          of the development workflow.
+
+          I have also been a key part of our frontend interview provess, I have worked to improve our interview process including writing new code tests, whilst interviewing
+          candidates across multiple countries.
+
+      - layout: left
+        border: weak
+        title: NatWest
+        sub_title: Frontend Software Engineer
+        caption: August 2017 - July 2021
+        description: |
+          Working at NatWest as a front end engineer focusing mostly on a corporate banking product called Bankline.
+          Working as part of a scrum team consiting of 5 developers, 2 testers and a PO/BA I have the oportunity to help drive the team forwards and
+          work with the PO defining what we are building.
+
+          I spend most of my time working on a specifc area of a large application that our team take ownership over. The front end is a <mark>React</mark> app
+          that talks to an API built using a collection of <mark>Java</mark> microservices. I have spent time working in multiple parts of the stack including
+          helping to define our front end architecure to follow best practices to implementing PDF and CSV export in a microservice.
+
+          Last year I took the lead on rebuilding the login journey to our application. I worked with the architects and designers to create something that would
+          be fit for purpose and be easy to maintain for years to come. I then built this to a high standard which lead to a seamless switch over from the previous
+          system with no issues. More recently I have acted as a consultant to external teams and application architects to advise on how we should be building new
+          functionality within our application. I have also built reusable components to the same standards as opensource libraries which have been used by different teams across the bank.
+
+          I enjoy learning about all areas of our application which allows me to be a go-to person for knowledge and queries within my team and the other teams
+          in the office. I am always looking to suggest improvements and challenge what and how we are working to make sure we are delivering the best service
+          to the customers while also developing to the highest standards.
+
+      - layout: left
+        border: weak
+        title: Simitive
+        sub_title: Full Stack Developer
+        link: www.simitive.com
+        caption: November 2015 - August 2017
+        description: |
+          During my time at Simitive I worked as part of an agile team building our own in house web based software and
+          also a large scale website for an international client. I gained experience working with a continuous integration
+          workflow using tools such as <mark>Jenkins</mark> and working with Amazon Web Services for deployments. We built most
+          of our software using <mark>Symfony</mark>, <mark>Backbone</mark>, <mark>Marionette</mark>, <mark>Vue</mark> and <mark>Vuex</mark>.
+
+          For 6 months I was working on delivering a standalone web product for an international client that services over
+          600,000 users. This has been built from the ground up using <mark>Symfony</mark> to provide a backend API and
+          <mark>Backbone</mark> for the front end. I also gained a lot of experience with <mark>Elasticsearch</mark> to provide
+          search functionality of millions of entities to the front end. During the project I spent time out of hours
+          communicating with the client, performing deployments and providing support.
+
+          Towards the end of my time at Simitive my role involved assisting with the company's devOps, this included managing
+          our <mark>AWS</mark> infrastructure as well as deploying and migrating sites. I also spent time configuring and maintaining
+          our clients SSO, this mostly involves configuring new clients who are using <mark>AD FS</mark>, <mark>Shibboleth</mark> and
+          <mark>CAS</mark> but also maintaining our software's SSO functionality.
+
+      - layout: left
+        border: weak
+        title: Freelance
+        sub_title: Android Development
+        caption: September 2016 - October 2016
+        description: |
+          I was asked to update an existing Android app to the latest version of Android and to fix any issues caused by
+          this as well as a few other existing issues. This project had a very tight time scale and I was able to complete
+          it in very good time while providing regular updates to the client.
+
+      - layout: left
+        border: weak
+        title: Nudge Digital
+        sub_title: Full Stack Developer
+        link: www.nudgedigital.co.uk
+        caption: August 2014 - November 2015
+        description: |
+          While working at Nudge I was able to work on a large number of projects ranging from small Drupal sites to large
+          enterprise level applications. I enjoy being able to work with clients to understand and surpass their expectations.
+          At Nudge I was also given the oppertunity to work with all of my core skills and to gain new skills in things
+          such as <mark>Symfony</mark>, <mark>Angular</mark> and <mark>Gulp</mark>. I also worked on a number of <mark>iOS</mark> and
+          <mark>Android</mark> applications.
+
+          During my time at Nudge I was able to help the lead developer with the writing of Technical Specifications and
+          also Project Requirements. I feel this is a useful skill to have as it helps me to become an even more well-rounded
+          developer.
+
+          During the summer I had the opportunity to head to Accra, Ghana and work with the team out there. This was a
+          great opportunity to learn more about the industry in another country but also to allow me to lead their
+          team for a few weeks and gain lots of experience of remote teams.
+
+      - layout: left
+        title: GWS Media
+        sub_title: Web Developer
+        link: www.gwsmedia.com
+        caption: June 2012 - August 2014
+        description: |
+          I started working for GWS Media part time during my third year at University and continued full time once I had
+          graduated. It was during this role that I learnt many of the fundamentals that I have been building on over
+          the past 3 years. Whilst at GWS I had the opportunity to work with:
+          <mark>Drupal</mark>, <mark>Magento</mark>, <mark>Bootstrap</mark>, <mark>Codeigniter</mark>, <mark>Android</mark> and <mark>iOS</mark>.
+
+          I feel like having the opportunity to use a large range of different things early on in my career has given me
+          the drive to always want to try new tools and frameworks.
+
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+      - title: Bristol University
+        sub_title: BSc Computer Science
+        caption: 2010 - 2013
+        description: |
+          During my degree at Bristol University I learnt lots of key skills such as team work and project management. Although
+          we mainly focused on software development and the principles of programming I use a lot of these skills to
+          my advantage in my day to day work.
+
+          While at Bristol Uni I spent a lot of my free time with the Kitesurfing society. I spent 3 years on the committee
+          as a secretary, trip rep and then media and promotions manager. During this time I took on roles from organising
+          transport and designing posters to organising a trip to Portugal for over 30 students.
+
+  - title: When I'm Not Programming
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      When I'm not sat at my desk I am very active and spend most of my time outdoors. I do a lot a sports such as
+      mountain biking, road cycling, kitesuring and horse riding as well as trying to make time for things like
+      rock climbing and playing some rugby. I currently have 2 horses and find this is a great way to get out of the house
+      and taking my mind of things while learing to showjump.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      I'm interested in photography and videography as I like to be creative, this is mainly through sport but
+      I enjoy landscape and abstract photography too. I like to showcase my work on instagram if
+      you would like to take a look - [jameswgrant](https://www.instagram.com/jameswgrant/).
+
+      Finally during the rest of my free time you will either find me working on my bikes, rock climbing at one of
+      Bristol's indoor climbing centres or down 'The Rec' supporting Bath Rugby.
 
 # Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
+footer_show_references: false
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/resume-theme
 
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
- - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+# sass:
+#   style: compressed
