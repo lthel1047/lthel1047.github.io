@@ -58,6 +58,7 @@ content:
           This is a <mark>Jekyll</mark> theme that I have recently created, in fact it is what this resume has been built with.
           I decided I wanted to learn how to create a fully open source project and thought that this would be the perfect project to do this with.
           It has allowed me to share something I have created in a way that will be helpful for lots of people while also learning from this myself.
+          
       - layout: top-middle
         title: itsgoingto.be
         link: www.itsgoingto.be
@@ -77,7 +78,20 @@ content:
           enjoyed managing my own project and designing my own architecture and implementing this to a high standard.
 
           Feel free to check out the whole project on GitHub to get a feel for how I work [here](https://github.com/sproogen/itsgoingto.be).- layout: top-middle
+          
         title: itsgoingto.be
+        link: www.itsgoingto.be
+        additional_links:
+          - title: sproogen/itsgoingto.be
+            icon: fab fa-github
+            url: https://github.com/sproogen/itsgoingto.be
+        quote: >
+          itsgoingto.be is a simple voting site where a user can ask a question or topic top put to a vote. This question
+          can then be shared with their friends/colleagues to vote on things like 'Where should we go for lunch?'.
+        description: |
+          The API for this site has been build using <mark>Node.js</mark> while the front end is a <mark>React</mark>/<mark>Redux</mark> app.
+          
+          title: itsgoingto.be
         link: www.itsgoingto.be
         additional_links:
           - title: sproogen/itsgoingto.be
