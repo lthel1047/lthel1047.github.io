@@ -73,23 +73,8 @@ content:
           The API for this site has been build using <mark>Node.js</mark> while the front end is a <mark>React</mark>/<mark>Redux</mark> app.
           I have used <mark>Docker</mark> to set up a development environment and <mark>Heroku</mark> to deploy and host the site. I have
           a suite of unit and API tests for the backend and unit tests for the front end.
-          
+                    
       - layout: top-middle
-        title: itsgoingto.be
-        link: www.itsgoingto.be
-        additional_links:
-          - title: sproogen/itsgoingto.be
-            icon: fab fa-github
-            url: https://github.com/sproogen/itsgoingto.be
-        quote: >
-          itsgoingto.be is a simple voting site where a user can ask a question or topic top put to a vote. This question
-          can then be shared with their friends/colleagues to vote on things like 'Where should we go for lunch?'.
-        description: |
-          The API for this site has been build using <mark>Node.js</mark> while the front end is a <mark>React</mark>/<mark>Redux</mark> app.
-          I have used <mark>Docker</mark> to set up a development environment and <mark>Heroku</mark> to deploy and host the site. I have
-          a suite of unit and API tests for the backend and unit tests for the front end.
-          
-          - layout: top-middle
         border: weak
         title: Mordern Resume Theme
         link: sproogen.github.io/modern-resume-theme
@@ -103,6 +88,21 @@ content:
           This is a <mark>Jekyll</mark> theme that I have recently created, in fact it is what this resume has been built with.
           I decided I wanted to learn how to create a fully open source project and thought that this would be the perfect project to do this with.
           It has allowed me to share something I have created in a way that will be helpful for lots of people while also learning from this myself.
+          
+     - layout: top-middle
+        title: itsgoingto.be
+        link: www.itsgoingto.be
+        additional_links:
+          - title: sproogen/itsgoingto.be
+            icon: fab fa-github
+            url: https://github.com/sproogen/itsgoingto.be
+        quote: >
+          itsgoingto.be is a simple voting site where a user can ask a question or topic top put to a vote. This question
+          can then be shared with their friends/colleagues to vote on things like 'Where should we go for lunch?'.
+        description: |
+          The API for this site has been build using <mark>Node.js</mark> while the front end is a <mark>React</mark>/<mark>Redux</mark> app.
+          I have used <mark>Docker</mark> to set up a development environment and <mark>Heroku</mark> to deploy and host the site. I have
+          a suite of unit and API tests for the backend and unit tests for the front end.
  
           
   - title: Experience
