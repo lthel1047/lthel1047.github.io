@@ -41,53 +41,49 @@ about_content: |
   <mark>AWS</mark>.
 
 content:
-  - title: Projects # Title for the section
-    layout: list
+  - title: Section Name
+    layout: list (options: list, text)
     content:
-      - layout: top-middle
-        border: weak
-        title: 1번
-        link: sproogen.github.io/modern-resume-theme
-        additional_links:
-          - title: sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: https://github.com/sproogen/modern-resume-theme
+      - layout: top-middle (options: left, right, top, top-right, top-middle)(default: left)
+        title: Name of item (eg. Company or Project name)
+        sub_title: Sub title (eg. Qualification or Job title)(optional)
+        caption: Item caption (eg. Employment or course dates)(optional)
+        link: Web link (eg. https://sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Text for link (optional: without this link will show URL as link text)
+        additional_links: (optional)
+          - title: Link name
+            icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+            url: Link url (eg. https://google.com)
         quote: >
-          A modern simple static resume template and theme. Powered by Jekyll and GitHub pages.
-        description: |
-          This is a <mark>Jekyll</mark> theme that I have recently created, in fact it is what this resume has been built with.
-          I decided I wanted to learn how to create a fully open source project and thought that this would be the perfect project to do this with.
-          It has allowed me to share something I have created in a way that will be helpful for lots of people while also learning from this myself.
-                     
-        - layout: top-middle
-        title: 2번
-        link: www.itsgoingto.be
-        additional_links:
-          - title: sproogen/itsgoingto.be
-            icon: fab fa-github
-            url: https://github.com/sproogen/itsgoingto.be
+          Short overview or quote for the item
+        description: | # this will include new lines to allow paragraphs
+          Main content area for the list item.
+  - title: Section Name
+    layout: text (options: list, text)
+    content: | # this will include new lines to allow paragraphs
+      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      
+  - title: Section Name
+    layout: list (options: list, text)
+    content:
+      - layout: top-middle (options: left, right, top, top-right, top-middle)(default: left)
+        title: Name of item (eg. Company or Project name)
+        sub_title: Sub title (eg. Qualification or Job title)(optional)
+        caption: Item caption (eg. Employment or course dates)(optional)
+        link: Web link (eg. https://sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Text for link (optional: without this link will show URL as link text)
+        additional_links: (optional)
+          - title: Link name
+            icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+            url: Link url (eg. https://google.com)
         quote: >
-          itsgoingto.be is a simple voting site where a user can ask a question or topic top put to a vote. This question
-          can then be shared with their friends/colleagues to vote on things like 'Where should we go for lunch?'.
-        description: |
-          The API for this site has been build using <mark>Node.js</mark> while the front end is a <mark>React</mark>/<mark>Redux</mark> app.
-          I have used <mark>Docker</mark> to set up a development environment and <mark>Heroku</mark> to deploy and host the site. I have
-          a suite of unit and API tests for the backend and unit tests for the front end.
-          
-     - layout: top-middle
-        border: weak
-        title: 3번
-        link: sproogen.github.io/modern-resume-theme
-        additional_links:
-          - title: sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: https://github.com/sproogen/modern-resume-theme
-        quote: >
-          A modern simple static resume template and theme. Powered by Jekyll and GitHub pages.
-        description: |
-          This is a <mark>Jekyll</mark> theme that I have recently created, in fact it is what this resume has been built with.
-          I decided I wanted to learn how to create a fully open source project and thought that this would be the perfect project to do this with.
-          It has allowed me to share something I have created in a way that will be helpful for lots of people while also learning from this myself.
+          Short overview or quote for the item
+        description: | # this will include new lines to allow paragraphs
+          Main content area for the list item.
+  - title: Section Name
+    layout: text (options: list, text)
+    content: | # this will include new lines to allow paragraphs
+      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
           
   - title: Experience
     layout: list
