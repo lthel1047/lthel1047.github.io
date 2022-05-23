@@ -76,7 +76,20 @@ content:
           I have been using this project as a way to increase many of my skills and also learn new things, most recently sockets and Node.JS. I have particually
           enjoyed managing my own project and designing my own architecture and implementing this to a high standard.
 
-          Feel free to check out the whole project on GitHub to get a feel for how I work [here](https://github.com/sproogen/itsgoingto.be).
+          Feel free to check out the whole project on GitHub to get a feel for how I work [here](https://github.com/sproogen/itsgoingto.be).- layout: top-middle
+        title: itsgoingto.be
+        link: www.itsgoingto.be
+        additional_links:
+          - title: sproogen/itsgoingto.be
+            icon: fab fa-github
+            url: https://github.com/sproogen/itsgoingto.be
+        quote: >
+          itsgoingto.be is a simple voting site where a user can ask a question or topic top put to a vote. This question
+          can then be shared with their friends/colleagues to vote on things like 'Where should we go for lunch?'.
+        description: |
+          The API for this site has been build using <mark>Node.js</mark> while the front end is a <mark>React</mark>/<mark>Redux</mark> app.
+         
+          
 
   - title: Experience
     layout: list
