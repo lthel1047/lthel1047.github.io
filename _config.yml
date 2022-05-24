@@ -98,7 +98,7 @@ content:
         description: | 
           ![art text](/images/oh9.jpg){: width="100" height="100"}
           ![art text](/images/oh9.jpg){: width="100" height="100"}
-          ![Astar](/images/Astar-min.gif){: width="400" height="300"}
+          ![Astar](/images/Astar-min.gif){: width="600" height="300"}
         
   - title: Education
     layout: list
