@@ -97,8 +97,8 @@ content:
           Short description of the company (optional)
         description: | 
           ![art text](/images/oh9.jpg){: width="100" height="100"}
-          ![art text](/images/oh9.jpg){: width="100" height="100"}
-          ![Astar](/images/Astar-min.gif){: width="600" height="300"}
+          ![DBD](/images/oh9.jpg){: width="600" height="300"}(https://youtu.be/vXuJoxCDT0s)
+          ![Astar](/images/Astar-min.gif){: width="600" height="300"}(https://youtu.be/FlFit3ZTNGk)
         
   - title: Education
     layout: list
