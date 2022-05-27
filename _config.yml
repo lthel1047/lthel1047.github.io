@@ -68,7 +68,7 @@ content:
           맵 자동생성 과 생성되는 맵에 아이템 그리고 몬스터가 자동으로 생성되며 해당 방에 몬스터를 다 처치해야 다음 방으로 향할 수 있도록 개발되었습니다. 
           맵을 자동생성하는 코드에 신경을 많이 썻으며 FIFO 방식을 이용해 LIST를 사용하였고 Linq 또한 사용해보았습니다.  
           Linq를 이용해 방(던전)을 찾아서 던전을 구성하는 방식을 이용했습니다. 처음 사용보는 방식이라 어려움이 많았고 어려운 부분과 버그가 발생하는 부분은 여러 자료를 참고하였습니다.  
-          ![Issac](/images/ISSAC.gif){: width="750" height="300"}
+          [![Issac](/images/ISSAC.gif)](https://youtu.be/Pn93lka2Ip4){: width="750" height="300"}
           
       - layout: top-middle
         border: weak
