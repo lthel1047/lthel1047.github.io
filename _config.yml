@@ -29,8 +29,7 @@ about_content: | # this will include new lines to allow paragraphs
   그리고 함께 한다는 건 피드백을 해줄 수 있는 팀원이 있고 그 피드백을 통해 제가 성장할 수 있고 함께 성장하고 같이 코딩을 할 생각에 저는 설렙니다.  
  여러분과 함께 일하며 배우고 얻은 지식을 통해 <mark>회사와 팀의 도움이 되는 코딩</mark>을 하고 싶습니다.  
  같이 앞으로 나아가고 성장하고 싶습니다.  
- ![art text](/images/oh9.jpg){: width="100" height="100".align-center}
- ![art text](/images/oh9.jpg){: width="100" height="100"}{: .align-right}
+ ![art text](/images/oh9.jpg){: width="100" height="100" .align-center}
  
 content:
   - title: Projects # Title for the section
@@ -52,7 +51,7 @@ content:
           이것 외에도 뒤로가는 버튼 등 차오르는 연출 및 소리마저 차오르는 소리가 들리도록 구현하였습니다.  
           실제 게임플레이 중에서는 AI를 구현하는데는 어려움은 없었지만 막상 만들다 보니 부드럽게 움직이게 한다던지 누가봐도 불편한 연출이 나왔지만 AI만 메인이라고 생각하지 않습니다.
           중요하게 생각한 것은 스킬을 사용하는 애니메이션, 생존자를 엎는 등 살인마 플레이어에 더 힘을 기울였습니다.  
-          [![DBD](/images/DBD.gif)](https://youtu.be/vXuJoxCDT0s){: width="750" height="300"}
+          [![DBD](/images/DBD.gif)](https://youtu.be/vXuJoxCDT0s){: width="750" height="300"}{: .align-right}
           
       - layout: top-middle
         border: weak
