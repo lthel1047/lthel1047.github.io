@@ -95,16 +95,12 @@ content:
         title: 한국IT전문학교 졸업
         sub_title: 게임프로그래밍학과
         caption: 2018.03 ~ 2020.02
-        quote: > 한국IT전문학교 게임프로그래밍학과(3년제)
-          
+        quote: | 한국IT전문학교 게임프로그래밍학과(3년제)
         description: | 게임프로그래밍 학과를 통해 얉고 넓게 공부를 하였지만 과제나 개인 공부로는 Unity 및 C++를 중심으로 공부하였습니다.  
         유니티로 작업한 작품들은 깃허브에서 확인이 가능하십니다. 저는 자료구조에 부족함을 느껴 동기들과 수업이 없는 날 일찍이 모여 강의실에서 정해진 자료구조 코드를 작성해와 발표하고
         서로에게 피드백과 질문을 통해 부족함을 많이 채웠습니다.
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
