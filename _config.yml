@@ -21,7 +21,7 @@ youtube_username: https://www.youtube.com/channel/UCI8cV92B2a9C-Z-uIzbQwhQ
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: /images/gangmin.jpg 
+about_profile_image: /images/GGM.jpg 
 about_content: | # this will include new lines to allow paragraphs
  현재 <mark>Unity 3D</mark> 개발을 공부하며  <mark>C#</mark>  , <mark> C++</mark> 을 이용해 개발을 할 수 있습니다.  
  저는 게임프로그래밍 학과를 이수했으며 3년간 학교생활을 하며 개발, 코딩은 혼자서 성장하기 힘들다는 것과 팀워크, 단체생활의 중요성을 많이 느꼈습니다.
