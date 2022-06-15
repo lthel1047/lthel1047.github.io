@@ -56,6 +56,24 @@ content:
           
       - layout: top-middle
         border: weak
+        title: Algorithm A*(PathFinder)
+        link: github.com/lthel1047/Astar_Algorithm.git
+        additional_links:
+          - title: Algorithm A*(PathFinder)
+            icon: fab fa-github
+            url: github.com/lthel1047/Astar_Algorithm.git
+        quote: >
+          알고리즘의 기본이라 할 수 있고 중요한 A* 알고리즘 입니다.
+        description: |
+          직접 벽을 마우스로 그릴 수 있고 타일의 수 등 직접적으로 관여하여 알고리즘을 구현하도록 만들었습니다.  
+          물론 코드 부분이 중요하지만 게임 개발자라면 유저의 편의성도 중요하다고 생각하여 GUI Layout 을 사용을 해보았습니다.  
+          처음 알게되었고 코드를 사용하기 많은 노력이 들어갔지만 공부하면서 새로운 코드를 배우는 과정이여서 재밌었습니다.  
+          앞서 A* 알고리즘을 물론 혼자만의 생각으로 코드를 작성하는데 어려움이 있어 많은 곳을 참고하여 만들었습니다.  
+          알고리즘은 많은 자료가 있어 어렵지 않았고, GUI Layout를 이용하는게 많은 어려움을 겪었습니다.  
+          [![Astar](/images/Astar-min.gif)](https://youtu.be/FlFit3ZTNGk){: width="750" height="300"}
+          
+      - layout: top-middle
+        border: weak
         title: Unity2D RogLike
         link: github.com/lthel1047/2DRoglikeGame.git
         additional_links:
@@ -72,21 +90,19 @@ content:
           
       - layout: top-middle
         border: weak
-        title: Algorithm A*(PathFinder)
-        link: github.com/lthel1047/Astar_Algorithm.git
+        title: TopDownShooting Game(3D)
+        link: github.com/lthel1047/TopDownGame.git
         additional_links:
-          - title: Algorithm A*(PathFinder)
+          - title:  TopDownShooting Game(3D)
             icon: fab fa-github
-            url: github.com/lthel1047/Astar_Algorithm.git
+            url: github.com/lthel1047/TopDownGame.git
         quote: >
-          알고리즘의 기본이라 할 수 있고 중요한 A* 알고리즘 입니다.
+          랜덤셔플 알고리즘을 통한 3D 슈팅게임 제작
         description: |
-          직접 벽을 마우스로 그릴 수 있고 타일의 수 등 직접적으로 관여하여 알고리즘을 구현하도록 만들었습니다.  
-          물론 코드 부분이 중요하지만 게임 개발자라면 유저의 편의성도 중요하다고 생각하여 GUI Layout 을 사용을 해보았습니다.  
-          처음 알게되었고 코드를 사용하기 많은 노력이 들어갔지만 공부하면서 새로운 코드를 배우는 과정이여서 재밌었습니다.  
-          앞서 A* 알고리즘을 물론 혼자만의 생각으로 코드를 작성하는데 어려움이 있어 많은 곳을 참고하여 만들었습니다.  
-          알고리즘은 많은 자료가 있어 어렵지 않았고, GUI Layout를 이용하는게 많은 어려움을 겪었습니다.  
-          [![Astar](/images/Astar-min.gif)](https://youtu.be/FlFit3ZTNGk){: width="750" height="300"}
+          UnityEditor 를 이용해 개발자 효율성 UP! 및 랜덤셔플 알고리즘을 이용한 맵 제작(중복되지 않는 맵 구조)  
+          랜덤적으로 장애물을 피해 생성되는 AI / 다양한 시각 효과를 구현해 완성도를 높였습니다.
+          
+      
 
 
 # Footer
