@@ -116,7 +116,8 @@ ul { list-style: none; }
 .avatar {
   width: 90px;
   height: 90px;
-  border-radius: 50%;
+  object-fit: cover;
+  display: block;
   background: var(--gray1);
   border: 2.5px solid var(--red);
   display: flex;
