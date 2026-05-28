@@ -1,0 +1,59 @@
+---
+layout: default
+title: 테크노트
+---
+
+<section class="blog-wrap">
+  <div class="blog-header">
+    <h1 class="blog-main-title"><span class="accent">테크</span>노트</h1>
+    <p class="blog-main-desc">개발하며 겪은 문제와 해결 과정을 기록합니다.</p>
+  </div>
+
+  <div class="blog-list-wrap">
+    {% assign categories = site.posts | map: "category" | uniq %}
+    
+    <div class="blog-filter" id="blogFilter">
+      <button class="filter-btn active" onclick="filterPosts('all', this)">전체</button>
+      {% for cat in categories %}
+      <button class="filter-btn" onclick="filterPosts('{{ cat }}', this)">{{ cat }}</button>
+      {% endfor %}
+    </div>
+
+    <div class="blog-list" id="blogList">
+      {% for post in site.posts %}
+      <a href="{{ post.url | relative_url }}" class="blog-card" data-cat="{{ post.category }}">
+        <div class="blog-card-left">
+          <span class="blog-card-cat">{{ post.category }}</span>
+          <h2 class="blog-card-title">{{ post.title }}</h2>
+          {% if post.description %}
+          <p class="blog-card-desc">{{ post.description }}</p>
+          {% endif %}
+          <div class="blog-card-tags">
+            {% for tag in post.tags %}
+            <span class="blog-card-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="blog-card-right">
+          <span class="blog-card-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+          <span class="blog-card-arrow">→</span>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<script>
+function filterPosts(cat, btn) {
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.blog-card').forEach(card => {
+    if (cat === 'all' || card.dataset.cat === cat) {
+      card.style.display = 'flex';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+</script>

@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<article class="post-wrap">
+  <div class="post-header">
+    <div class="post-meta-top">
+      <a href="{{ '/blog/' | relative_url }}" class="post-back">← 테크노트</a>
+      <span class="post-category">{{ page.category }}</span>
+    </div>
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-meta">
+      <span>{{ page.date | date: "%Y년 %m월 %d일" }}</span>
+      {% if page.tags %}
+      <div class="post-tags">
+        {% for tag in page.tags %}
+        <span class="post-tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  <div class="post-content">
+    {{ content }}
+  </div>
+  <div class="post-footer">
+    <a href="{{ '/blog/' | relative_url }}" class="btn-back">← 목록으로</a>
+  </div>
+</article>
