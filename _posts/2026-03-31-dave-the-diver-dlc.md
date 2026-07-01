@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Real VR Fishing × Dave the Diver DLC — 초밥집 & 헌팅 시스템 개발기"
-category: 프로젝트 회고
+category: 프로젝트 후기
 description: 콜라보 DLC 두 가지 신규 콘텐츠를 기존 코드 건드리지 않고 설계한 과정
 tags: [Unity, UniTask, FSM, Photon, VR, DLC, 트러블슈팅]
 date: 2026-03-31
