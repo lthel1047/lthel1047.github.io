@@ -2,7 +2,7 @@
 layout: post
 title: "Dave DLC 심화 — QuestManager & 초밥집 설계 구조"
 date: 2026-06-29
-categories: 프로젝트 회고
+categories: 프로젝트 후기
 tags: [Unity, C#, UniTask, 콘텐츠설계, 퀘스트시스템, VR, DLC]
 description: "퀘스트 흐름과 초밥 미니게임을 이벤트만으로 연결한 설계 — 기존 코드 비침습 원칙을 유지하면서 콘텐츠 확장성을 어떻게 확보했는지 정리한다."
 ---
